@@ -1,0 +1,24 @@
+{
+  "name": "@thoughtproof/plugin-thoughtproof",
+  "version": "0.1.0",
+  "description": "Pre-execution reasoning verification for elizaOS agents",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "elizaos",
+    "plugin",
+    "verification",
+    "thoughtproof"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "@elizaos/core": "*"
+  },
+  "devDependencies": {
+    "@elizaos/core": "2.0.0-alpha.77",
+    "typescript": "^5.3.0"
+  }
+}
